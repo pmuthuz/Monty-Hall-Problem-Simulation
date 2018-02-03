@@ -40,5 +40,5 @@ non_swapper_won = 0
   non_swapper_won += simulation.non_swapper
 end
 
-print 'swapper_won ', swapper_won, ' out of 10000 times ie ', (swapper_won.to_f / 10_000.to_f) * 100, "%\n"
-print 'non_swapper_won ', non_swapper_won, ' out of 10000 times ie ', (non_swapper_won.to_f / 10_000.to_f) * 100, "%\n"
+print 'swapper_won ', swapper_won, ' out of 10000 times ie ', ((swapper_won.to_f / 10_000.to_f) * 100).round(2), "%\n"
+print 'non_swapper_won ', non_swapper_won, ' out of 10000 times ie ', ((non_swapper_won.to_f / 10_000.to_f) * 100).round(2), "%\n"
